@@ -1,0 +1,241 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.traffic-light {
+  display: flex;
+  gap: 15px; /* Spazio tra le colonne */
+  margin: 20px 0;
+  padding: 20px;
+  background-color: black; /* Sfondo per sembrare il semaforo */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.light-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.light {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+
+.light1_1 {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light2_1 {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light3_1 {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light4_1{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+
+.light1_2{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light2_2{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light3_2{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light4_2{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+
+
+.light1_3{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light2_3{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light3_3{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light4_3{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+
+.light1_4{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light2_4{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light3_4{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light4_4{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+
+.light1_5{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light2_5{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light3_5{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+.light4_5{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border: 2px solid black; /* Bordo nero attorno a ogni luce */
+  border-radius: 50%;
+  margin: 3px; /* Spazio tra le luci per renderle separate */
+}
+
+.instructions {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+#start-button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: darkgreen;
+}
